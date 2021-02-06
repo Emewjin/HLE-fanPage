@@ -23,11 +23,12 @@ body {
 }
 
 button {
+  cursor: pointer;
   border: none;
   margin-right: 10px;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: var(--orange);
-  padding: 4px 8px;
+  padding: 6px 10px;
   text-align: center;
   font-family: "Noto Sans KR", sans-serif;
   color: white;
@@ -39,12 +40,19 @@ button:active {
   outline: none;
   background-color: white;
   color: var(--orange);
+  font-weight: 500;
 }
 
 button:focus {
   outline: none;
   background-color: white;
   color: var(--orange);
+  font-weight: 500;
+}
+button:hover {
+  background-color: white;
+  color: var(--orange);
+  font-weight: 500;
 }
 
 .go-top {
@@ -59,9 +67,14 @@ button:focus {
   color: var(--orange);
   box-shadow: none;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
 .go-top:focus {
   outline: none;
+  background: none;
+}
+
+.go-top:hover {
   background: none;
 }
