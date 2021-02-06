@@ -42,12 +42,13 @@
 .drop-content {
   display: none;
   flex-direction: column;
-  align-items: flex-start;
   padding: 10px 8px;
 }
 
 .drop-content a {
-  margin: 20px 0px;
+  width: 100%;
+  padding: 20px 0px;
+  display: flex;
 }
 
 .showing {
