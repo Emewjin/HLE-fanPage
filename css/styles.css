@@ -1,0 +1,39 @@
+@import "reset.css";
+@import "variables.css";
+
+/* screen */
+@import "video.css";
+@import "index.css";
+
+/* components */
+@import "components/status-bar.css";
+@import "components/title-box.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  /* 100 300 400 500 700 900 */
+  box-sizing: border-box;
+  height: 150vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.go-top {
+  z-index: 900;
+  margin: 20px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  font-size: 50px;
+  border: none;
+  background: none;
+  color: var(--orange);
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.go-top:focus {
+  outline: none;
+}
