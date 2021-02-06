@@ -4,6 +4,7 @@
 /* screen */
 @import "video.css";
 @import "index.css";
+@import "info.css";
 
 /* components */
 @import "components/status-bar.css";
