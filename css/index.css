@@ -22,7 +22,7 @@ h2 {
 .img-box__content img {
   width: 220px;
   height: 330px;
-  margin: 20px 15px;
+  margin: 20px 25px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -40,13 +40,14 @@ h2 {
   align-items: center;
 }
 
-.social {
+/* .social {
   display: flex;
-}
+} */
 
 .social img {
   width: 25px;
   height: 25px;
+  margin: 10px;
 }
 
 .win {
