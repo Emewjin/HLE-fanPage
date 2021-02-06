@@ -13,7 +13,11 @@ function appendHtml(videoTag) {
 
 function createVideoTag(videoTitle, videoURL, playYear, playSeason){
     let videoTag = 
-    `<div class="video"><span>${videoTitle}</span><div class="video-container"><iframe width="100%" height="100%" src="${videoURL}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="video-tags"><button>${playYear}${playSeason}</button></div></div>`;
+    `<div class="video"><span>${videoTitle}</span><div class="video-container">
+    <iframe width="100%" height="100%" src="${videoURL}" frameborder="0" 
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe></div><div class="video-tags">
+    <button>${playYear}${playSeason}</button></div></div>`;
     appendHtml(videoTag); 
 }
 
