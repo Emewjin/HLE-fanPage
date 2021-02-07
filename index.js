@@ -8,21 +8,13 @@ const timesIcon = "fa-times"
 function scrollTop(){
     window.scrollTo(0,0);
 }
+
 topBtn.addEventListener("click", scrollTop);
 
 function showMenu(){
     dropMenu.classList.toggle(SHOWING);
     menuIcon.classList.toggle(timesIcon);
 }
-menuIcon.addEventListener("click",showMenu);
 
-// function updateToggle(){
-//     if (this.paused) {
-//         // console.log('play');
-//         toggle.textContent = '►';
-//     } else {
-//         // console.log('pause');
-//         toggle.textContent = '❚❚';
-//     }
-// }
+menuIcon.addEventListener("click",showMenu);
 
